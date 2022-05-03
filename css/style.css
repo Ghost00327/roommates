@@ -513,7 +513,7 @@ ul.btn li:last-child {
 }
 
 .navigation.navbar-dark .navbar-toggler-icon {
-     background: url('../images/top/handbar.png') no-repeat !important; 
+     background: url('../images/top/handbar.svg') no-repeat !important; 
 }
 
 .sp_user {
@@ -530,7 +530,7 @@ ul.btn li:last-child {
 }
 
 .banner_main {
-     background: url('../images/top/bg.png') no-repeat center;
+     background: url('../images/top/bg.svg') no-repeat center;
      background-size: cover; 
 }
 
@@ -612,7 +612,7 @@ ul.btn li:last-child {
      color: #1B2125;
 }
  
-.value_container p {
+.value_container  {
      border: 1px solid #C8CFD2;
      box-sizing: border-box;
      border-radius: 40px;
@@ -627,10 +627,17 @@ ul.btn li:last-child {
      margin-bottom: 0; 
 }
 
-.value_container p label { 
+.value_container label { 
      color: #4079FF;
      margin-bottom: 0;
      margin-right: 10px;
+}
+
+.value_container input {
+     height: 100%;
+     width: 90%;
+     border: none !important;
+     outline: none !important;
 }
 
 .term_container {
@@ -736,7 +743,7 @@ ul.btn li:last-child {
      margin-bottom: 10px;
 }
 
-.cpf .cpf_body p{
+.cpf .cpf_body input{
      border: 1px solid #C8CFD2;
      box-sizing: border-box;
      border-radius: 30px;
@@ -747,6 +754,7 @@ ul.btn li:last-child {
      line-height: 19px; 
      color: #1B2125;
      padding: 20px;
+     width: 100%;
 }
 
 .cst_btn.big {
