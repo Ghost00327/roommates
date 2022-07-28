@@ -1,29 +1,6 @@
 # frontend
 
-> roomate react frontend app
+> roomate frontend
 
-## Project setup
+#smooth frontend design and building
 
-```bash
-npm install
-```
-
-Or
-
-```bash
-npm ci
-```
-
-### Compiles and hot-reloads for development
-
-```bash
-npm start
-```
-
-### Compiles and minifies for production
-
-```bash
-npm run build
-```
-
- 
